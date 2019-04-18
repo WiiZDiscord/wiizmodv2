@@ -1,0 +1,88 @@
+14 Avril 2019
+Liste des commandes
+WiiZ Mod V2.1 BOT
+Help :
+	Group: User
+	Description: Affiche la page d'aide
+	Utilisation: "~help [group/command]*"
+Ping :
+	Group: User
+	Description: Envoie une réponse à l'utilisateur qui effectue la commande
+	Utilisation: "~ping"
+8Ball :
+	Group: User
+	Description: Permet de générer une réponse aléatoire après avoir posé une question au bot
+	Utilisation: "~8ball <question>*"
+Nein :
+	Group: User
+	Description: Affiche un gif de Adolf H.
+	Utilisation: "~nein"
+Progres :
+	Group: User
+	Description: Affiche la progression du bot jusqu'à maintenant.
+	Utilisation: "~progres"
+BotInfo :
+	Group: User
+	Description: Affiche les informations du bot
+	Utilisation: "~botinfo"
+ServerInfo :
+	Group: User
+	Description: Affiche les informations du serveur
+	Utilisation: "~serverinfo"
+Report :
+	Group: User
+	Description: Permet de report un utilisateur en cas d'infraction des regles. Nécessite un channel "reports".
+	Utilisation: "~report <@user> <raison>*"
+Invite :
+	Group: User
+	Description: Permet de générer un lien d'invitation du bot, afin de l'ajouter sur ton serveur !
+	Utilisation: "~invite"
+ServerList :
+	Group: User
+	Description: Affiche la liste des serveurs où se trouve le bot
+	Utilisation: "~serverlist"
+Latence :
+	Group: User
+	Description: Affiche le temps de latence avec le serveur
+	Utilisation: "~latence"
+Groups :
+	Group: User
+	Description: Affiche la liste des groupes
+	Utilisation: "~help <groups>*"
+
+Purge :
+	Group: Moderator
+	Description: Supprime un nombre de message définis
+	Utilisation: "~purge <quantité>*"
+Kick :
+	Group: Moderator
+	Description: Permet de kick un membre du serveur. Nécessite un channel #logs
+	Utilisation: "~kick <@user> <raison>*"
+Mute :
+	Group: Moderator
+	Description: Permet de faire taire un utilisateur
+	Utilisation: "~mute <@user>*"
+UnMute :
+	Group: Moderator
+	Description: Permet [si un utilisateur à été mute] de le faire reparler
+	Utilisation: "~unmute <@user>*"
+
+Ban :
+	Group: Moderator
+	Description: Permet de ban un membre du serveur. Nécessite un channel #logs
+	Utilisation: "~ban <@user> <raison>*"
+Warn :
+	Group: Admin
+	Description: Permet de warn un membre du serveur afin de lui faire signaler son infraction de/la regle
+	Utilisation: "~warn <@user> <raison>*"
+SeeWarns : 
+	Group: Admin
+	Description: Permet de voir le(s) warn(s) d'un utilisateur du serveur
+	Utilisation: "~seewarns <@user>"
+DeleteWarns :
+	Group: Admin
+	Description: Permet de supprimer un des warns ou tout les warns d'un utilisateur
+	Utilisation: "~deletewarns <@user> <numéro du warn/tout (pour tous les supprimer)>*"
+
+
+*< > Veut dire requis, [ ] veut dire optionel.
