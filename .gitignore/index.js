@@ -447,15 +447,6 @@ bot.on('message', message => {
 
   }
 
-  if (msg.startsWith(prefix + "NEIN")) {
-
-        // Send the attachment in the message channel
-        const attachment = new Discord.Attachment('./nein.mp4');
-        message.channel.send("NEIN NEIN NEIN !")
-        message.channel.send(attachment);
-
-    }
-
   if (msg.startsWith(prefix + "NEWROLE")) {
 
     if(!message.guild.member(message.author).hasPermission("ADMINISTRATOR")) return message.channel.send("Vous n'avez pas la permission de créer de nouveaux rôles\nSi vous souhaitez effectuer la commande, demandez à/aux (l')administrateur(s) du serveur de vous donnez la permission `ADMINISTRATOR` :wink:");
