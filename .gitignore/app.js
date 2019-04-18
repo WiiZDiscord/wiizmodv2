@@ -839,4 +839,4 @@ bot.on('ready', () => {
 })
 
 // Cette ligne permet d'allumer le bot grâce au token
-bot.login("NTY1MTY3MDQxMjAwMzkwMTU0.XKyn-w.Q2gEv8_VgxmG2613J5vb5WHOBbE");
+bot.login(process.env.TOKEN);
